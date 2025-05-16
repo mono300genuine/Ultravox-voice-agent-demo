@@ -124,6 +124,7 @@ export interface CallConfig {
   maxDuration?: string;
   timeExceededMessage?: string;
   callKey?: string;
+  agentId?:string;
 }
 
 export interface DemoConfig {
