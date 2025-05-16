@@ -155,7 +155,7 @@ export default function Home() {
                       <BorderedImage
                         src={UVLogo}
                         alt="todo"
-                        size="md"
+                        size="sm"
                       />
                     </div>
                     {isCallActive ? (

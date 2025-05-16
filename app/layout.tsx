@@ -26,7 +26,7 @@ export default function RootLayout({
           <Image
             src={UVLogo}
             alt="Ultravox logo and wordmark"
-            width={200}
+            width={80}
           />
           <a href="mailto:hello@fixie.ai?subject=Ultravox%20Demo" >
             <button className="hover:bg-gray-700 px-6 py-2 border-2 rounded-[3px] w-40 mb-2">
