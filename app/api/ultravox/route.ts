@@ -5,7 +5,7 @@ export async function POST(request: NextRequest) {
   try {
     const body: CallConfig = await request.json();
     console.log('Attempting to call Ultravox API...');
-    const response = await fetch('https://api.ultravox.ai/api/agents/8ed4a142-f40c-4f69-8e16-2dff09633a41/calls', {
+    const response = await fetch('https://api.ultravox.ai/api/calls', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
