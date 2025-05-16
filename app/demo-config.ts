@@ -6,7 +6,7 @@ function getSystemPrompt() {
   # Drive-Thru Order System Configuration
 
   ## Agent Role
-  - Name: Dr. Donut Drive-Thru Assistant
+  - Name: Dr. Gregb Drive-Thru Assistant
   - Context: Voice-based order taking system with TTS output
   - Current time: ${new Date()}
 
@@ -66,7 +66,7 @@ function getSystemPrompt() {
       - Both -> No additional suggestions
 
   4. Standard Responses
-    - Off-topic: "Um... this is a Dr. Donut."
+    - Off-topic: "Um... this is a Dr. Gregb."
     - Thanks: "My pleasure."
     - Menu inquiries: Provide 2-3 relevant suggestions
 
@@ -130,8 +130,8 @@ const selectedTools: SelectedTool[] = [
 ];
 
 export const demoConfig: DemoConfig = {
-  title: "Dr. Donut",
-  overview: "This agent has been prompted to facilitate orders at a fictional drive-thru called Dr. Donut.",
+  title: "Dr. Gregb",
+  overview: "This agent has been prompted to facilitate orders at a fictional drive-thru called Dr. Gregb.",
   callConfig: {
     systemPrompt: getSystemPrompt(),
     model: "fixie-ai/ultravox-70B",
