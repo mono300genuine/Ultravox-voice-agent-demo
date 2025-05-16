@@ -7,7 +7,8 @@ import { CallConfig, SelectedTool } from '@/lib/types'
 import demoConfig from './demo-config';
 import { Role, Transcript, UltravoxExperimentalMessageEvent, UltravoxSessionStatus } from 'ultravox-client';
 import BorderedImage from '@/app/components/BorderedImage';
-import UVLogo from '@/public/UVMark-White.svg';
+// import UVLogo from '@/public/UVMark-White.svg';
+import UVLogo from '@/public/gregb.svg';
 import CallStatus from './components/CallStatus';
 import DebugMessages from '@/app/components/DebugMessages';
 import MicToggleButton from './components/MicToggleButton';

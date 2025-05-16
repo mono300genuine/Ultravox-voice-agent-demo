@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from 'next/image';
-import UVLogo from '@/public/UVHorizontal-White.svg';
+// import UVLogo from '@/public/UVHorizontal-White.svg';
+import UVLogo from '@/public/gregb.svg';
 import "./globals.css";
 
 export const metadata: Metadata = {
