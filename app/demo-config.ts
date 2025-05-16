@@ -137,7 +137,7 @@ export const demoConfig: DemoConfig = {
     model: "fixie-ai/ultravox-70B",
     languageHint: "en",
     selectedTools: selectedTools,
-    voice: "Mark",
+    voice: "terrence",
     temperature: 0.4,
     agentId: "8ed4a142-f40c-4f69-8e16-2dff09633a41"
   }
