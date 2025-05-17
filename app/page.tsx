@@ -217,7 +217,7 @@ export default function Home() {
                 </div>
                 {/* Call Status */}
                 <CallStatus status={agentStatus}>
-                  <OrderDetails />
+                  {/* <OrderDetails /> */}
                 </CallStatus>
               </div>
             </div>
