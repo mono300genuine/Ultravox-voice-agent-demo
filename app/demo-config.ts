@@ -131,7 +131,7 @@ const selectedTools: SelectedTool[] = [
 
 export const demoConfig: DemoConfig = {
   title: "Dr. Gregb",
-  overview: "This agent has been prompted to facilitate orders at a fictional drive-thru called Dr. Gregb.",
+  overview: "This agent has been prompted to show demo called Dr. Gregb.",
   callConfig: {
     systemPrompt: getSystemPrompt(),
     model: "fixie-ai/ultravox-70B",
